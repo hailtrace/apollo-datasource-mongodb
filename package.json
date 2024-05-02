@@ -1,5 +1,5 @@
 {
-  "name": "apollo-datasource-mongodb",
+  "name": "@hailtrace/apollo-datasource-mongodb",
   "version": "0.5.5",
   "description": "Apollo data source for MongoDB",
   "main": "dist/index.js",
@@ -43,7 +43,7 @@
   "homepage": "https://github.com/GraphQLGuide/apollo-datasource-mongodb",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GraphQLGuide/apollo-datasource-mongodb"
+    "url": "git+https://github.com/hailtrace/apollo-datasource-mongodb"
   },
   "license": "MIT",
   "bugs": {
