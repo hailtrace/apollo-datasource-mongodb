@@ -1,10 +1,10 @@
-declare module 'apollo-datasource-mongodb' {
+declare module '@hailtrace/apollo-datasource-mongodb' {
   import { DataSource } from 'apollo-datasource'
   import { Collection as MongoCollection, ObjectId } from 'mongodb'
   import {
     Collection as MongooseCollection,
     Document,
-    Model as MongooseModel,
+    Model as MongooseModel
   } from 'mongoose'
 
   export type Collection<T, U = MongoCollection<T>> = T extends Document
